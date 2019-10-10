@@ -1,0 +1,10 @@
+.list-item {
+    display: inline-block;
+    margin: 15px 0;
+}
+
+img {
+    float: left;
+    margin-right: 15px;
+}
+
