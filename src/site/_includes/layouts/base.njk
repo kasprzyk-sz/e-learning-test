@@ -9,7 +9,7 @@
     <title>{{ title or (renderData and renderData.title) or siteConfig.siteInformation.title}}</title>
   </head>
   <body class="{{ bodyClass }} vf-body">
-    {# <header class="vf-global-header">
+    <header class="vf-global-header">
 
       <div class="vf-global-header__inner">
         {% render '@vf-logo', {href:  'https://visual-framework.github.io/vf-welcome/' | url, sreen_reader_text: 'Visual Framework 2.0', image: siteConfig.siteInformation.url + 'assets/vf-logo/assets/logo.svg' } %}
@@ -31,7 +31,7 @@
 
       </div>
 
-    </header> #}
+    </header>
     <div class="vf-grid">
       <div>
         {{ content | safe }}

@@ -1,11 +1,14 @@
-.list-item {
+/* .list-item {
     display: inline-block;
     margin: 15px 0;
     width: 100%;
-}
+} */
 
 img {
     float: left;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
+.vf-list__item {
+    margin-bottom: 8%;
+}
