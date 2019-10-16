@@ -84,7 +84,7 @@ module.exports = function(config) {
     htmlTemplateEngine : ["njk", "md"],
     markdownTemplateEngine : "njk",
     passthroughFileCopy: true,
-    pathPrefix: "/e-learning/" // if your site is deployed to a sub-url, otherwise comment out
+    // pathPrefix: "/e-learning/" // if your site is deployed to a sub-url, otherwise comment out
   };
 
 };
